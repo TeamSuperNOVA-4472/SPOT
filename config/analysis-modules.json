@@ -91,15 +91,15 @@
 					"sort": -1,
                     "unit": "s to end"
                 },
-				{
-					"name": "Climb Duration",
-					"path": "averages.climbDuration",
-					"multiplier": 0.001,
-					"decimals": 2,
-					"hideIfValue": 0,
-					"sort": -1,
-					"unit": "s"
-				},
+        				{
+        					"name": "Climb Duration",
+        					"path": "averages.climbDuration",
+        					"multiplier": 0.001,
+        					"decimals": 2,
+        					"hideIfValue": 0,
+        					"sort": -1,
+        					"unit": "s"
+        				},
                 {
                     "name": "Time Per Ball",
                     "path": "timePerBall",
@@ -152,6 +152,12 @@
                     "path": "averages.miss",
 					"decimals": 2,
 					"sort": -1
+                },
+                {
+                  "name": "Standard Deviation",
+                  "path": "standardDeviation",
+                  "decimals":2,
+                  "sort": -1
                 }
             ]
         }
