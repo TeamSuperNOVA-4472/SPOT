@@ -172,6 +172,11 @@ function compareAllTeams(alliances) {
 // console.log(pAliiances);
 console.log("test")
 
+// testing what returns with fetchDataset()
+let dataset = fetchDataset();
+console.log(dataset);
+
+
 let teamB1 = {
 	sd : 20,
 	avg: 80
